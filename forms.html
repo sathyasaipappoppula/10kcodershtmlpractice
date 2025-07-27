@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <img src="./photos/ts.jpg" width="100%" height="300">
+    <form action="./submit.html" enctype="text/plain">
+        <fieldset>
+            <legend>Application</legend>
+            <fieldset>
+                <legend>Application Details</legend>
+                <table>
+                    <tr >
+                        <td>
+                            <label for="name">Name*:</label>
+                            <input type="text" name="name" id="name">
+                        </td>
+                        
+                        <td>
+                            <label for="fathername">Father's/Guardian's Name*:</label>
+                            <input type="text" name="fathername" id="fathername">
+                        </td>
+                    </tr>
+                    <tr >
+                        <td>
+                            <label for="date">Date Of Birth*:</label>
+                            <input type="date" name="birthdate" id="date">
+                        </td>
+                        <td>
+                            Gender*:
+                            <input type="radio" name="gender" id="gender">
+                            <label for="gender">Male</label>
+                            <input type="radio" name="gender" id="gen">
+                            <label for="gen">Female</label>
+                        </td>
+                    </tr>
+                    <tr >
+                        <td>
+                            Age as on*:
+                            <input type="text" placeholder="Years">
+                            <input type="text" placeholder="Months">
+                            <input type="text" placeholder="Days">
+                        </td>
+                        <td>
+                            <Label for="adharnumber">Adhar Number*:</Label>
+                            <input type="text" name="adharnumber" id="adharnumber" minimum="12" maximum="12">
+                        </td>
+                    </tr>
+                    <tr >
+                        <td>
+                            <Label for="number">Whatsap Number*:</Label>
+                            <input type="text" name="number" id="number">
+                        </td>
+                        <td>
+                            <label for="email">Email Id*:</label>
+                            <input type="email" name="email" id="email">
+                        </td>
+                    </tr>
+                    <tr >
+                        <td>
+                            <label for="photo">Photo*:</label>
+                            <input type="file">
+                        </td>
+                        
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Residential Address Details</legend>
+                <table>
+                    <tr >
+                        <td>
+                            <label for="address">Applicant's Address*:</label>
+                            
+                        </td>
+                        <td>
+                            <textarea name="address" id="address"></textarea>
+                        </td>
+                        <td>
+                            <label for="dist">District*:</label>
+                            <select name="dist" id="dist">
+                                <option disabled selected>Select</option>
+                                <option>Hyderabad</option>
+                                <option>Nalgonda</option>
+                            </select>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="mandal">Mandal*:</label>
+                        </td>
+                        <td>
+                            <select name="mandal" id="mandal">
+                                <option disabled selected>Select</option>
+                                <option>Hyderabad</option>
+                            </select>
+                        </td>
+                        <td>
+                            <label  for="village">Village*:</label>
+                            <select name="village" id="village">
+                                <option disabled selected>Select</option>
+                                <option>Hyderabad</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="pincode">Pincode*:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="pincode" id="pincode">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Pass Type Details</legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="city">City*:</label>
+                            <input type="text" name="city" id="city">
+                        </td>
+                        <td>
+                            <label for="passtype:">Pass Type*:</label>
+                            <select name="pass" id="pass">
+                                <option disabled selected>Select</option>
+                                <option>General</option>
+                                <option>Student</option>
+                                <option>Employee</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Mode of Payment & Pass Collection</legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="payment">Payment Mode*:</label>
+                            <select name="payment" id="payment">
+                                <option disabled selected>Select Payment Method</option>
+                                <option>UPI</option>
+                                <option>Payment at Counter</option>
+                            </select>
+                        </td>
+                        <td>
+                            <label for="pass">Pass Delivey Mode*:</label>
+                            <select name="pass" id="pass">
+                                <option disabled selected>Select Delivery Mode</option>
+                                <option>Collect at Counter</option>
+                                <option>Post</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="center">Center to Collect Pass*:</label>
+                            <select name="center" id="center">
+                                <option disabled selected>Select Center</option>
+                                <option>KPHB</option>
+                                <option>Secunderabad</option>
+                            </select>
+                        </td>
+                        
+                    </tr>
+                </table>
+                <center>
+                    <img src="./photos/captcha.jpg" width="100">
+                    <br>
+                    <input type="text">
+                </center>
+                
+            </fieldset>
+            <center>
+                <input type="submit">
+            </center>
+        </fieldset>
+
+    </form>
+</body>
+</html>
