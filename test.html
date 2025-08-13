@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+</head>
+<body>
+    <center>
+        <nav>
+            <h1><img src="./photos/star.jpg" alt="profile" width="20"> John Doe's Web Portfolio</h1>
+            <h5><i>Showcasing HTML Skills using Tables</i></h5>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </center>
+    <hr>
+    <table border="1" cellspacing="0" cellpadding="10" width="100%">
+        <tr>
+            <td colspan="2">
+                <h3 id="about"><img src="./photos/profile.jpg" width="15">  About Me</h3>
+    
+                <p>Hello! I'm <b>JOHN DOE</b>, a passionate web developer. I love building semantic,accessible,and responsive websites using core web technologies.</p>
+                <p>I specialize in front-end development,especially HTML,CSS,and JavaScript.</p>                        
+            
+            </td>
+
+        </tr>
+        <tr>
+            <td >
+                <h3 id="skills"><img src="./photos/brain.jpg" width="15"> Skills</h3>
+                <ul>
+                    <li>HTML5/CSS3</li>
+                    <li>JavaScript(ES6+)</li>
+                    <li>Responsive Design</li>
+                    <li>Git & GitHub</li>
+                </ul>
+                <h3>Skill Levels</h3>
+                <table border="2" cellspacing="1" cellpadding="10" width="100">
+                    <tr>
+                        <th>Skill</th>
+                        <th>Level</th>
+                    </tr>
+                    <tr>
+                        <td>HTML</td>
+                        <td>EXPERT</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Adanced</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Intermediate</td>
+                    </tr>
+                </table>
+            </td>
+            <td >
+                <h3 id="projects"><img src="./photos/files.jpg" width="15">Projects</h3>
+                <ol>
+                    <li><b>Portfolio Website - </b>My personal portfolio built using pure HTML and CSS.</li>
+                    <li><b>Todo App - </b>A task management tool with vanilla JavaScript</li>
+                    <li><b>Weather App - </b>A real-time weather dashboard using APIs.</li>
+                </ol>
+                <img src="./photos/bro.jpg" width="100">
+                <br>
+                <img src="./photos/gabbar.jpg" width="100">
+            </td>
+        </tr>
+        <tr  align="center">
+            <td colspan="2">
+            <h3 id="contact"><img src="./photos/contact.jpg" width="18">Contact Me</h3>
+            <fieldset>
+                <legend>Contact Form</legend>
+                <form action="./submit.html">
+                    <table border="0" cellspacing="0" cellpadding="10" width="60%">
+                        <tr>
+                            <td><label for="name">Full Name:</label></td>
+                            <td><input type="text" id="name" name="name"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email:</label></td>
+                            <td><input type="email" id="email" name="email"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="gender">Gender:</label></td>
+                            <td>
+                                <input type="radio" id="male" name="gender">
+                                <label for="male">Male</label>
+                                <input type="radio" id="female" name="gender">
+                                <label for="female">Female</label>
+                            </td>
+                        </tr>
+                            <tr>
+                                <td><label for="ser">Services Interested:</label></td>
+                                <td>
+                                    <input type="checkbox" id="web" name="ser">
+                                    <label for="web">Web Design</label>
+                                    <br>
+                                    <input type="checkbox" id="seo" name="ser">
+                                    <label for="seo">SEO</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="country">Country:</label></td>
+                                <td>
+                                    <select>
+                                        <option selected>USA</option>
+                                        <option>INDIA</option>
+                                        <option>RUSSIA</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label for="msg">Message:</label></td>
+                                <td>
+                                    <textarea id="msg" name="text" cols="20" rows="5"></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <input type="submit" value="send">
+                                    <input type="submit" value="clear">
+                                </td>
+
+                            </tr>
+                        
+                    </table>
+                </form>
+            </fieldset>
+            </td>
+        </tr>
+        <tr>
+                        
+            <td colspan="2">
+                <center>
+                                <h3>Last Updated: August 13, 2025</h3>
+                            
+                                <h3>Created by John Doe</h3>
+                                <h3>Email:<a href="https://mail.google.com/mail/u/0/">john@gmail.com</a></h3>
+                                <h3>Website:<a href="https://www.bing.com/search?filters=ufn%3a%22Wikipedia%22+sid%3a%223b30aeb1-32ee-2dbf-e322-4e7c55beee2b%22&qs=MB&pq=wiki&sk=CSYN1UAS9AS7LS5&sc=25-4&pglt=297&q=wikipedia&cvid=33f2a297532441f499b28cce14522e19&gs_lcrp=EgRlZGdlKgYIARAuGEAyBggAEEUYOTIGCAEQLhhAMgYIAhAuGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEAAYQDIGCAcQABhAMgYICBAuGEDSAQg0NzExajBqMagCALACAA&FORM=ANSPA1&PC=NMTS">example.com</a></h3>
+                                <h3>@ 2025 John Doe.All rights reserved.</h3>
+            </td>
+        </center>        
+         </tr>
+    </table>
+</body>
+</html>
