@@ -1,0 +1,42 @@
+.main1{
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+    font-size: xx-large;
+    background-color: black;
+    color:white
+}
+.main2{
+    display:flex;
+    width:100%;
+    justify-content: space-around;
+    font-size: xx-large;
+    background-color: black;
+    color:white
+}
+.main3{
+    display:flex;
+    width:100%;
+    justify-content: start;
+    position:relative;
+    font-size: xx-large;
+    background-color: black;
+    color:white
+}
+
+.main3>.item7{
+    position: absolute;
+    right:0;
+
+}
+.main3>.item1,.main3>.item2,.main3>.item3,.main3>.item4,.main3>.item5,.main3>.item6{
+    margin-left: 30px;
+}
+.main4{
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+    font-size: xx-large;
+    background-color: black;
+    color:white
+}
