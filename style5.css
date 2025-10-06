@@ -1,0 +1,46 @@
+.main{
+    display: flex;
+    width:50%;
+    position: relative;
+    border: solid 1px;
+    justify-content: space-around;
+    
+    
+}
+.sub1,.sub2{
+    display:inline-block;
+    width:50%;
+    justify-content: center;
+    position:relative;
+
+}
+.sub1:hover{
+    background-color: black;
+    color:white;
+}
+#eat,#drink{
+    display: none;
+}
+.eat{
+    display: inline-block;
+    width:50%;
+    border: solid 1px;
+    position: relative;
+    top:-800px;
+    
+}
+#eat:checked~.eat{
+    top:1px;
+    
+}
+.drink{
+    display: inline-block;
+    width:50%;
+    border: solid 1px;
+    position: relative;
+    top:-1000px;
+}
+
+#drink:checked~.drink{
+    top:-361px;
+}
